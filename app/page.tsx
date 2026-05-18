@@ -1,21 +1,14 @@
 // import Image from "next/image";
-import VideoRooms from "./components/VideoRooms";
-import { Button } from "@/components/ui/button"
+
+// import FrontPage from "./components/frontPage";
+
 
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black h-96">
-        <h1 className="text-3xl text-center">Welcome to zoom clone app.</h1>
-        <h3 className="text-2xl text-center text-shadow-cyan-300">What do you want to start?</h3>
-        <div className="p-4 flex justify-around mt-8">
-          <Button>Create Meeting</Button>
-          <Button>Join Meeting</Button>
-
-        </div>
-
-      </div>
-      {/* <VideoRooms/> */}
+      
+      
+      
     </main>
     // <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
     //   <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
