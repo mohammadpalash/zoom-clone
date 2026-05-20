@@ -1,11 +1,27 @@
 // import Image from "next/image";
 
+import CreateMeeting from "./components/CreateMeeting";
+import JoinMeeting from "./components/JoinMeeting";
+
+// import FrontPage from "./components/FrontPage";
+
 // import FrontPage from "./components/frontPage";
 
 
 export default function Home() {
   return (
     <main>
+      {/* <FrontPage/> */}
+      <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black h-96">
+        <h1 className="text-3xl text-center">Welcome to zoom clone app.</h1>
+        <h3 className="text-2xl text-center text-shadow-cyan-300">What do you want to start?</h3>
+        <div className="p-4 flex justify-around mt-8">
+          <CreateMeeting/> 
+          <JoinMeeting/>
+
+        </div>
+
+      </div>
       
       
       
